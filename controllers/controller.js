@@ -27,6 +27,10 @@ var lista = [
     res.status(200).send(lista)
 }
 
+controller.getXXXX = (req,res)=>{
+  res.status(200).send(lista)
+}
+
 controller.getPessoaById = (req,res)=>{
     item = lista.find(i => i.id == req.params.id)
   
