@@ -27,6 +27,7 @@ var lista = [
     res.status(200).send(lista)
 }
 
+
 controller.getXXXX = (req,res)=>{
   res.status(200).send(lista)
 }
